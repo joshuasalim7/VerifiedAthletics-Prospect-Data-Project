@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 import re
 
-# Global mapping of standard column names to possible variants.
+# Create a dict for global mapping of standard column names to possible variants.
 COLUMN_GROUPS = {
     'player_name': ['name', 'name_more_info_click_name', 'player', 'athlete', 'student_name', 'full_name'],
     'jersey_number': ['#', 'number', 'jersey', 'jersey_#', 'no'],
