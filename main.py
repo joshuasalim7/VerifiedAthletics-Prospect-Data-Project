@@ -72,11 +72,11 @@ def combine_prospect_files(file_paths, output_file):
 
 if __name__ == "__main__":
     file_paths = [
-        '/content/West Orange Football Prospect Sheet.csv',
-        '/content/Ingram Prospect Sheet.xlsx',
-        '/content/Central 2024 Prospect Sheet Updated.xlsx',
-        '/content/Stevens PROSPECT LIST.xlsx',
-        '/content/Hammond Recruiting - Updated  - Form Responses 1.csv'
+        './West Orange Football Prospect Sheet.csv',
+        './Ingram Prospect Sheet.xlsx',
+        './Central 2024 Prospect Sheet Updated.xlsx',
+        './Stevens PROSPECT LIST.xlsx',
+        './Hammond Recruiting - Updated  - Form Responses 1.csv'
     ]
     output_file = 'combined_prospect_sheets.csv'
 
